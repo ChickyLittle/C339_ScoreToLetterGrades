@@ -1,0 +1,11 @@
+name: Hello GitHub Actions
+
+on: workflow_dispatch
+
+jobs: contains all the jobs that will run in the workflow.
+  hello: is the name of our job. We call it hello because this
+    job will print “Hello, GitHub Actions!”
+runs-on: ubuntu-latest
+steps: 
+      - name: Say Hello
+         run: echo " Hello, Github Actions"
